@@ -1,4 +1,4 @@
-Server Data {#header}
+#Server Data
 ===========
 
 This application is being hosted at [data.bhagat.io]
@@ -7,7 +7,7 @@ This code is being hosted on Github in a repository called [ServerData]
 
 `git pull https://github.com/rishavb123/ServerData.git`
 
-Videos {#videos .tab}
+Videos
 ======
 
 I created two videos to demo my project. I have a long version of the
@@ -17,17 +17,17 @@ how some parts of the code works. On the other hand, the shortened video
 goes a lot faster and only covers the more unique features of the web
 app. I also have the clips for each feature stored in the clips folder.
 
-Full Video {#full-video .tab2}
+Full Video
 ----------
 
 To access the Full Video open `Video/full.mp4`
 
-Short Video {#short-video .tab2}
+Short Video
 -----------
 
 To access the Small Video open `Video/small.mp4`
 
-Clips {#clips .tab2}
+Clips
 -----
 
 Each clip describes a few features. The name of the file indicates the
@@ -35,14 +35,14 @@ feature that it talks about. The number in the name tells you what order
 it shows up in the full video. To view these videos open `Video/clips`
 and then choose the clip to watch.
 
-Diagrams {#diagrams .tab}
+Diagrams
 ========
 
 These are a few images that I created during development to either map
 out how something would look/work or it was to see how to do the math
 for something.
 
-Website {#website .tab}
+Website
 =======
 
 This is the website that is being hosted at [data.bhagat.io]. Opening
@@ -51,10 +51,10 @@ the `index.html` file will not load the website since the site
   [data.bhagat.io]: http://data.bhagat.io
   [ServerData]: https://github.com/rishavb123/ServerData
 
-React Source {#react-source .tab}
+React Source
 ============
 
-File(s) Worth Looking At {#files-worth-looking-at .tab2}
+File(s) Worth Looking At
 ------------------------
 
 -   `React Source/src/App.jsx`
@@ -63,25 +63,25 @@ File(s) Worth Looking At {#files-worth-looking-at .tab2}
 -   `React Source/public/index.html`
 -   `React Source/README.md`
 
-Install Dependencies {#install-dependencies .tab2}
+Install Dependencies
 --------------------
 
 `cd React Source`{.tab3}\
 `npm install`{.tab3}
 
-Start Development Server {#start-development-server .tab2}
+Start Development Server
 ------------------------
 
 `cd React Source`{.tab3}\
 `npm start`{.tab3}
 
-Create Build {#create-build .tab2}
+Create Build
 ------------
 
 `cd React Source`{.tab3}\
 `npm run build`{.tab3}
 
-Server {#server .tab}
+Server
 ======
 
 The server uses python 3.7 to serve the content. It also require a few
@@ -90,7 +90,7 @@ also not work without the credentials to connect to the firebase admin
 sdk. If it is absolutely required to run the server, email me at
 [rishav\@bhagat.io]
 
-File(s) Worth Looking At {#files-worth-looking-at-1 .tab2}
+File(s) Worth Looking At
 ------------------------
 
 -   `Server/server.py`
