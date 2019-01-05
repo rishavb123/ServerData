@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instructions</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-size: 125%;
+        }
+        
+        #header {
+            font-size: 500%;
+            color: lightblue;
+            font-style: oblique;
+            text-align: center;
+        }
+        
+        code {
+            background-color: #444444;
+            display: inline-block;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        h1 {
+            color: red;
+        }
+        
+        h2 {
+            color: blue;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        .tab {
+            margin-left: 50px;
+        }
+        
+        .tab2 {
+            margin-left: 100px;
+        }
+        
+        .tab3 {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="header">Server Data</h1>
+    <p class="center">This application is being hosted at <a href="http://data.bhagat.io">data.bhagat.io</a></p>
+    <p class="center">This code is being hosted on Github in a repository called <a href="https://github.com/rishavb123/ServerData">ServerData</a></p>
+    <p class="center"><code>git pull https://github.com/rishavb123/ServerData.git</code></p>
+
+    <h1 class="tab">Videos</h1>
+    <p class="tab2">I created two videos to demo my project. I have a long version of the video and a short one. The long version is around 11 and a half minutes long and it covers almost all the features and touches a little bit on how some parts of the code works.
+        On the other hand, the shortened video goes a lot faster and only covers the more unique features of the web app. I also have the clips for each feature stored in the clips folder.</p>
+    <h2 class="tab2">Full Video</h2>
+    <p class="tab3">To access the Full Video open <code>Video/full.mp4</code></p>
+    <h2 class="tab2">Short Video</h2>
+    <p class="tab3">To access the Small Video open <code>Video/small.mp4</code></p>
+    <h2 class="tab2">Clips</h2>
+    <p class="tab3">Each clip describes a few features. The name of the file indicates the feature that it talks about. The number in the name tells you what order it shows up in the full video. To view these videos open <code>Video/clips</code> and then choose the clip
+        to watch.</p>
+
+    <h1 class="tab">Diagrams</h1>
+    <p class="tab2">These are a few images that I created during development to either map out how something would look/work or it was to see how to do the math for something.</p>
+
+    <h1 class="tab">Website</h1>
+    <p class="tab2">This is the website that is being hosted at <a href="http://data.bhagat.io">data.bhagat.io</a>. Opening the <code>index.html</code> file will not load the website since the site was built with react and the way react gets its resources in <code>index.html</code>        does not work when you open the file. If you would like to see the website from the Website folder, serve it through a server using a command like <a href="https://www.npmjs.com/package/serve"><code>serve</code></a>.</a>
+    </p>
+
+    <h1 class="tab">React Source</h1>
+    <h2 class="tab2">File(s) Worth Looking At</h2>
+    <ul class="tab3">
+        <li><code>React Source/src/App.jsx</code></li>
+        <li><code>React Source/src/firebase.js</code></li>
+        <li><code>React Source/src/data/data.json</code></li>
+        <li><code>React Source/public/index.html</code></li>
+        <li><code>React Source/README.md</code></li>
+    </ul>
+    <h2 class="tab2">Install Dependencies</h2>
+    <code class="tab3">cd React Source</code>
+    <br />
+    <code class="tab3">npm install</code>
+    <h2 class="tab2">Start Development Server</h2>
+    <code class="tab3">cd React Source</code>
+    <br />
+    <code class="tab3">npm start</code>
+    <h2 class="tab2">Create Build</h2>
+    <code class="tab3">cd React Source</code>
+    <br />
+    <code class="tab3">npm run build</code>
+
+    <h1 class="tab">Server</h1>
+    <p class="tab2">The server uses python 3.7 to serve the content. It also require a few modules installed in python: (firebase_admin, sklean). The server will also not work without the credentials to connect to the firebase admin sdk. If it is absolutely required
+        to run the server, email me at <a href="mailto:rishav@bhagat.io?subject=Need Firebase Admin Service Account Credentials&body=Hi Rishav,\nWould it be possible for you to send me a copy of the Firebase Admin Service Account credentials so that I can run and test the python server.">rishav@bhagat.io</a>
+    </p>
+    <h2 class="tab2">File(s) Worth Looking At</h2>
+    <ul class="tab3">
+        <li><code>Server/server.py</code></li>
+    </ul>
+
+</body>
+
+</html>
