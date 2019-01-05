@@ -17,12 +17,15 @@ app. I also have the clips for each feature stored in the clips folder.
 
 ### Full Video
 
-To access the Full Video open `Video/full.mp4`
+To access the Full Video open `Video/full.mp4`.
+The video folder is also public on [Google Drive]
+
+  [Google Drive]: https://drive.google.com/drive/folders/1CQyeS8tnEMnvqoshK3W3O6t4UjgObX2G
 
 ### Short Video
 
 To access the Small Video open `Video/small.mp4`
-
+The video folder is also public on [Google Drive]
 
 ### Clips
 
