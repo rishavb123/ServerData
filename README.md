@@ -17,19 +17,18 @@ app. I also have the clips for each feature stored in the clips folder.
 
 ### Full Video
 
-To access the Full Video open `Video/full.mp4` in [Drive]: https://drive.google.com/drive/folders/1WUfQIdhzFrYZcJBxhGiNIdRKsGoHMXOx?usp=sharing
+To access the Full Video open `Video/full.mp4`
 
 ### Short Video
 
-To access the Small Video open `Video/small.mp4` in [Drive]: https://drive.google.com/drive/folders/1WUfQIdhzFrYZcJBxhGiNIdRKsGoHMXOx?usp=sharing
+To access the Small Video open `Video/small.mp4`
 
 
 ### Clips
 
 Each clip describes a few features. The name of the file indicates the
 feature that it talks about. The number in the name tells you what order
-it shows up in the full video. To view these videos open `Video/clips` in
-[Drive]: https://drive.google.com/drive/folders/1WUfQIdhzFrYZcJBxhGiNIdRKsGoHMXOx?usp=sharing
+it shows up in the full video. To view these videos open `Video/clips`
 and then choose the clip to watch.
 
 ## Diagrams
