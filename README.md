@@ -6,6 +6,8 @@ This code is being hosted on Github in a repository called [ServerData]
 
 `git pull https://github.com/rishavb123/ServerData.git`
 
+This code is also in a pubic folder on [Google Drive]
+
 ## Videos
 
 I created two videos to demo my project. I have a long version of the
@@ -18,21 +20,19 @@ app. I also have the clips for each feature stored in the clips folder.
 ### Full Video
 
 To access the Full Video open `Video/full.mp4`.
-The video folder is also public on [Google Drive]
-
-  [Google Drive]: https://drive.google.com/drive/folders/1CQyeS8tnEMnvqoshK3W3O6t4UjgObX2G
+The video folder is also public on [Drive]
 
 ### Short Video
 
 To access the Small Video open `Video/small.mp4`
-The video folder is also public on [Google Drive]
+The video folder is also public on [Drive].
 
 ### Clips
 
 Each clip describes a few features. The name of the file indicates the
 feature that it talks about. The number in the name tells you what order
 it shows up in the full video. To view these videos open `Video/clips`
-and then choose the clip to watch.
+and then choose the clip to watch. The video folder is also public on [Drive]
 
 ## Diagrams
 
@@ -86,3 +86,7 @@ sdk. If it is absolutely required to run the server, email me at
 - `Server/server.py`
 
   [rishav\@bhagat.io]: mailto:rishav@bhagat.io?subject=Need%20Firebase%20Admin%20Service%20Account%20Credentials&body=Hi%20Rishav,%0AWould%20it%20be%20possible%20for%20you%20to%20send%20me%20a%20copy%20of%20the%20Firebase%20Admin%20Service%20Account%20credentials%20so%20that%20I%20can%20run%20and%20test%20the%20python%20server.
+
+  [Google Drive]: https://drive.google.com/drive/u/2/folders/1WUfQIdhzFrYZcJBxhGiNIdRKsGoHMXOx
+
+  [Drive]: https://drive.google.com/drive/folders/1CQyeS8tnEMnvqoshK3W3O6t4UjgObX2G
