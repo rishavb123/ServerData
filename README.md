@@ -50,3 +50,49 @@ the `index.html` file will not load the website since the site
 
   [data.bhagat.io]: http://data.bhagat.io
   [ServerData]: https://github.com/rishavb123/ServerData
+
+React Source {#react-source .tab}
+============
+
+File(s) Worth Looking At {#files-worth-looking-at .tab2}
+------------------------
+
+-   `React Source/src/App.jsx`
+-   `React Source/src/firebase.js`
+-   `React Source/src/data/data.json`
+-   `React Source/public/index.html`
+-   `React Source/README.md`
+
+Install Dependencies {#install-dependencies .tab2}
+--------------------
+
+`cd React Source`{.tab3}\
+`npm install`{.tab3}
+
+Start Development Server {#start-development-server .tab2}
+------------------------
+
+`cd React Source`{.tab3}\
+`npm start`{.tab3}
+
+Create Build {#create-build .tab2}
+------------
+
+`cd React Source`{.tab3}\
+`npm run build`{.tab3}
+
+Server {#server .tab}
+======
+
+The server uses python 3.7 to serve the content. It also require a few
+modules installed in python: (firebase\_admin, sklean). The server will
+also not work without the credentials to connect to the firebase admin
+sdk. If it is absolutely required to run the server, email me at
+[rishav\@bhagat.io]
+
+File(s) Worth Looking At {#files-worth-looking-at-1 .tab2}
+------------------------
+
+-   `Server/server.py`
+
+  [rishav\@bhagat.io]: mailto:rishav@bhagat.io?subject=Need%20Firebase%20Admin%20Service%20Account%20Credentials&body=Hi%20Rishav,\nWould%20it%20be%20possible%20for%20you%20to%20send%20me%20a%20copy%20of%20the%20Firebase%20Admin%20Service%20Account%20credentials%20so%20that%20I%20can%20run%20and%20test%20the%20python%20server.
