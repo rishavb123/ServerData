@@ -13,11 +13,11 @@ firebase_admin.initialize_app(cred, {
 
 class RequestHandler(BaseHTTPRequestHandler):
     
+    def end_headers (self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        BaseHTTPRequestHandler.end_headers(self)
+
     def do_GET(self):
-        # self.send_header('Access-Control-Allow-Origin', '*')
-        # self.send_header('Access-Control-Allow-Methods', 'GET, OPTIONS')
-        # self.send_header("Access-Control-Allow-Headers", "X-Requested-With")
-        # self.send_header("Access-Control-Allow-Headers", "*")
         if(self.path == "/favicon.ico"):
             self.send_response(404)
             self.end_headers()
