@@ -116,7 +116,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.end_headers()
             _, _, exc_tb = sys.exc_info()
-            self.wfile.write(bytes(str({ "error": type(e).__name__+": "+str(e).replace("'","")+" at line "+str(exc_tb.tb_lineno) }), 'utf-8'))
+            self.wfile.write(bytes(str({ "error": type(e).__name__+": "+str(e).replace("'","")+" at line "+str(exc_tb.tb_lineno) }).replace("'", '"'), 'utf-8'))
 
 httpd = HTTPServer(('localhost', 4000), RequestHandler)
 try:
