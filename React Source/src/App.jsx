@@ -1618,7 +1618,8 @@ class App extends Component {
                                         this.setState({ error: "Sign In To Make Requests to the Server" });
                                     else
                                         axios.get(`http://localhost:4000/${this.state.accessCode}?best=${document.getElementById("input-text").value.toLowerCase()}`).then(res => {
-                                            let d = (typeof res.data === 'object')? res.data: JSON.parse(res.data);
+                                        console.log(res.data);    
+                                        let d = (typeof res.data === 'object')? res.data: JSON.parse(res.data);
                                             if(!d.error) {
                                                 for(let i = 0; i < d.best.length; i++)
                                                     rows.push(<tr key={i+1}>

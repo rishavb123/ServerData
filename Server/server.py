@@ -62,7 +62,10 @@ class RequestHandler(BaseHTTPRequestHandler):
                 stats[k]["average_uptime"] /= stats[k]["count"]
 
             def get_version_key(el):
-                return int(el.split('.')[0]), el
+                try:
+                    return int(el.split('.')[0]), el
+                except:
+                    return 0, el
 
             things["area"].sort()
             things["version"].sort(key=get_version_key)
